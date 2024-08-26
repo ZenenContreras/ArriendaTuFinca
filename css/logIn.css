@@ -20,7 +20,7 @@ h2{
 }
 
 body{
-    background: url(img/finca.webp) no-repeat;
+    background: url(/img/finca.webp) no-repeat;
     background-size: cover;
     min-height: 100vh;
 
