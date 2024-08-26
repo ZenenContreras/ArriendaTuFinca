@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logIn.css">
+    <title>Arrienda Tu Finca - Inicio</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo"><ion-icon name="home"></ion-icon><a href="index.html"> Arrienda Tu finca</a></h2>
+        <nav class="navigation">
+            <a href="index.html">Inicio</a>
+            <a href="">Acerca de</a>
+            <a href="">Servicios</a>
+            <a href="">WikiGroup</a>
+        </nav>
+        
+    </header>
+
+    <section class="wrapper">
+        <div class="wrapper1">
+            <div class="form-box login">
+                <h2>Iniciar Sesión</h2>
+                <form action="">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label for="">Correo</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label for="">Contraseña</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Recuérdame</label>
+                        <a href="#">Olvidaste la contraseña?  </a>
+                    </div>
+                    <button type="submit">Entrar</button>
+                    <div class="login-register">
+                        <p>No tienes una cuenta? <a class="register-link" href="#">Registrate aquí</a></p>
+                    </div>
+            
+                </form>
+            </div>  
+            <div class="form-box register">
+                <h2>Registrate</h2>
+                <form action="">
+                     <div class="input-box">
+                         <span class="icon"><ion-icon name="person"></ion-icon></span>
+                         <input type="user" required>
+                         <label for="">Nombre</label>
+                     </div>
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="user" required>
+                        <label for="">Apellido</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label for="">Correo</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="text" required>
+                        <label for="">Contraseña</label>
+                    </div>
+
+                    <div class="role-selection">
+                        <p>Selecciona tu rol:</p>
+                        <label>
+                            <input type="radio" name="role" value="arrendador" required>
+                            Arrendador
+                        </label>
+                        <label>
+                            <input type="radio" name="role" value="arrendatario" required>
+                            Arrendatario
+                        </label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox" required> <a href="#">Acepto los terminos y condiciones</a></label>
+                    </div>
+                    <button type="submit">Registrarse</button>
+                    <div class="login-register">
+                        <p>Tienes una cuenta? <a class="login-link" href="#">Ingresa aquí</a></p>
+                    </div>
+            
+                </form>
+            </div>      
+        </div>
+
+    <footer>
+        <div class="conteiner">
+            <p>&copy; 2024 Arrienda Tu Finca. Todos los derechos reservados.</p>
+        </div>
+        
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
